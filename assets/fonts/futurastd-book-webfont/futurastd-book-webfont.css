@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'FuturaStdBook';
+    src: url('futurastd-book-webfont.eot');
+    src: url('futurastd-book-webfont.eot') format('embedded-opentype'),
+         url('futurastd-book-webfont.woff') format('woff'),
+         url('futurastd-book-webfont.ttf') format('truetype'),
+         url('futurastd-book-webfont.svg#FuturaStdBook') format('svg');
+}

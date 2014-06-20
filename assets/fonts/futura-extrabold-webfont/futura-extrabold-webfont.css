@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'FuturaExtraBold';
+    src: url('futura-extrabold-webfont.eot');
+    src: url('futura-extrabold-webfont.eot') format('embedded-opentype'),
+         url('futura-extrabold-webfont.woff') format('woff'),
+         url('futura-extrabold-webfont.ttf') format('truetype'),
+         url('futura-extrabold-webfont.svg#FuturaExtraBoldExtraBold') format('svg');
+}
