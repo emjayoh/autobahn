@@ -277,21 +277,13 @@ var Roots = {
         // JavaScript to be fired on the home page
 
         fullPage();
-//        $(window).resize(function() {
-//            fullPage();
-//        });
 
         function fullPage() {
             if ($(window).width() >= 768) {
-
+                $('body').css('overflow', 'hidden');
                 $('.wrap').fullpage({ fixedElements: '.fixed-header' });
-
-                $('.scrolltop').each(function () {
-                    $(this).click(function () {
-                        $.fn.fullpage.moveTo(1);
-                    });
-                });
-            } else { $.fn.fullpage.destroy('all'); }
+                $('.scrolltop').each(function () { $(this).click(function () { $.fn.fullpage.moveTo(1); }); });
+            } else { $('body').css('overflow', 'auto'); }
         }
     }
   },
